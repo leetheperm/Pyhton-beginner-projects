@@ -1,3 +1,8 @@
+""" Tutorial by Markets and data (https://www.youtube.com/channel/UCtGNWBSiriWivCbuPX4M_Wg)
+
+Program adjusted by Lee Davies based on above tutorial. """
+
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import random
@@ -72,7 +77,7 @@ class InstagramBot:
 		    #/html/body/div[3]/div/div[2]/div/article/div[2]/section[1]/span[1]/button
 
 
-Lee = InstagramBot("447393917827", "1chbinweasel")
+Lee = InstagramBot("Username", "Password")
 Lee.login()
 
 hashtag = ['london', 'christmas', 'roadtrip', 'babes', 'boobs', 'happy','streetfood', 'traveller' 'travel', 'citylife' 'destination', 'curry', 'sporty', 'nike'
